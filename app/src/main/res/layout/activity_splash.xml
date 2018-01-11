@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+
+        android:layout_marginTop="@dimen/txt_mrg_top"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title"
+        android:textColor="@android:color/black"
+        android:text="@string/app_names"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/info"
+        android:textColor="@color/btn_info"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="@string/app_info" />
+
+
+
+
+
+     <Button
+         android:id="@+id/btn_started"
+         android:layout_marginTop="@dimen/btn_mrg_top"
+         android:layout_marginLeft="@dimen/btn_mrg"
+         android:layout_marginRight="@dimen/btn_mrg"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/btn_height"
+         android:text="@string/app_Started"
+         android:textStyle="bold"
+         android:textColor="@android:color/white"
+         android:textSize="@dimen/info"
+         android:background="@drawable/custom_app_started_btn"
+         />
+
+
+</LinearLayout>

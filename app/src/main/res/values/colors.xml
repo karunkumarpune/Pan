@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dc6f85</color>
+    <color name="colorPrimaryDark">#e0e0e0</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorStatusBar">#ffffff</color>
+
+
+    <color name="btn_info">#454545</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="app_otp_color">#d44b9e</color>
+
+    <color name="primary">#457C50</color>
+    <color name="primaryDarker">#580C0C</color>
+
+</resources>

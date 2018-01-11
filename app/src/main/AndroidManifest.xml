@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.tulpan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".navigation.NavigationDwable"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<activity
+                  android:name=".navigation.splash.SplashScreen"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+                  android:screenOrientation="portrait"
+                  >
+                  <intent-filter>
+                      <action android:name="android.intent.action.MAIN" />
+
+                      <category android:name="android.intent.category.LAUNCHER" />
+                  </intent-filter>
+              </activity>
+      -->
+
+        <!--  <activity
+              android:name=".navigation.NavigationDwable"
+              android:screenOrientation="portrait"
+              android:theme="@style/AppTheme.NoTitle"/>
+  -->
+
+        <activity
+            android:name=".login_info.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+
+
+        <activity
+            android:name=".login_info.OtpActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".navigation.menu_options.MyOrders"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+        <activity
+            android:name=".navigation.menu_options.Reminder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+        <activity
+            android:name=".navigation.menu_options.LikedProducts"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+        <activity
+            android:name=".navigation.menu_options.CustomerService"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+        <activity
+            android:name=".navigation.menu_options.LoyalltyPoints"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+
+        <activity
+            android:name=".navigation.menu_options.Settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,168 @@
+<LinearLayout
+    android:id="@+id/main_layout"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_marginLeft="@dimen/app_actionBar_let"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_arrow_back"
+            />
+        <TextView
+            android:textColor="@color/app_otp_color"
+            android:textSize="@dimen/app_opt_txt"
+            android:textStyle="bold"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mobile_verification"
+            />
+
+        <ImageButton
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_check"
+            android:background="@android:color/transparent"
+            android:layout_marginRight="@dimen/app_otp_rt_margin"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:padding="@dimen/app_otp_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEFEFEF">
+
+     <TextView
+         android:layout_marginTop="40dp"
+         android:gravity="center"
+         android:textSize="@dimen/app_opt_info"
+         android:id="@+id/tv_info"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/please_enter_one_time_verification_code_n_sent_9431410921"
+         />
+
+
+
+        <LinearLayout
+
+            android:id="@+id/pin_content_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pin_content_layout_padding" >
+
+            <LinearLayout android:id="@+id/pin_layout"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <EditText android:id="@+id/pin_first_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText android:id="@+id/pin_second_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText android:id="@+id/pin_third_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText android:id="@+id/pin_forth_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+                <EditText android:id="@+id/pin_fifth_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/pin_content_desc"
+                    style="@style/pin_edittext_style" />
+
+
+
+            </LinearLayout>
+
+            <EditText android:id="@+id/pin_hidden_edittext"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:password="true"
+                android:maxLength="5"
+                android:textColor="#00000000"
+                android:contentDescription="@string/pin_content_desc" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="@dimen/app_opt_info"
+            android:id="@+id/in"
+            android:layout_below="@+id/pin_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not recieved the code yet?"
+            />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/app_opt_info"
+            android:id="@+id/btn_resend"
+            android:layout_below="@+id/in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resend"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

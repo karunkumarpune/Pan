@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.4"
+        android:background="#d6d4d4">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+
+
+        <LinearLayout
+            android:padding="0dp"
+            android:id="@+id/btn_home_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn_home1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_home_active" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/btn_home2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_home_deactive" />
+
+
+            <TextView
+                android:layout_marginBottom="2dp"
+                android:id="@+id/tv_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:id="@+id/btn_product_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/btn_product1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_products_active" />
+
+
+            <ImageView
+                android:id="@+id/btn_product2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_products_deactive" />
+
+            <TextView
+                android:id="@+id/tv_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Product"
+                android:layout_marginBottom="2dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:id="@+id/btn_cart_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/btn_cart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_cart_active" />
+
+             <ImageView
+                android:id="@+id/btn_cart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_cart_deactive" />
+
+            <TextView
+                android:id="@+id/tv_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cart"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:id="@+id/btn_promo_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/btn_promo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_promo_active" />
+
+            <ImageView
+                android:id="@+id/btn_promo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_promo_deactive" />
+
+            <TextView
+                android:id="@+id/tv_promo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prome"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:id="@+id/btn_scedule_"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/btn_scedule1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_scheduled_active" />
+             <ImageView
+                android:id="@+id/btn_scedule2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_scheduled_deactive" />
+
+            <TextView
+                android:id="@+id/tv_schedul"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scheduled"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Tulpan</string>
+    <string name="title_home">Home</string>
+
+    <string name="hello_blank_fragment">This is the main fragment</string>
+
+
+    //splash screen
+    <string name="app_names">TULPAN</string>
+    <string name="app_info">Get easier to buy flowers,gift,craft, \n Sweet things,etc.</string>
+    <string name="app_Started">Get Started</string>
+
+
+    //Login
+    <string name="app_login">SIGN IN</string>
+    <string name="app_login_forget_pass">Forgot Password ?</string>
+
+    //SignUp
+    <string name="app_signup">SIGN UP</string>
+
+
+
+    <array name="menuOptions">
+        <item>My Orders</item>
+
+    </array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="mobile_verification">Mobile Verification</string>
+    <string name="please_enter_one_time_verification_code_n_sent_9431410921">Please enter one time verification code   sent +9431410921</string>
+    <string name="app_signup_or_signup_by"> Or Signup By</string>
+
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="pin_label_text">PIN</string>
+
+
+
+
+
+   // otp-   http://lomza.totem-soft.com/pin-input-view-in-android/
+
+</resources>

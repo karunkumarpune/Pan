@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+    //splash sreen text size
+    <dimen name="title">20sp</dimen>
+    <dimen name="info">12sp</dimen>
+    <dimen name="btn">15sp</dimen>
+    <dimen name="btn_mrg">70dp</dimen>
+    <dimen name="btn_mrg_top">70dp</dimen>
+    <dimen name="txt_mrg_top">270dp</dimen>
+    <dimen name="btn_height">35dp</dimen>
+
+
+    //Login
+
+    <dimen name="login_btn">15sp</dimen>
+    <dimen name="login_btn_mrg">30dp</dimen>
+    <dimen name="app_opt_txt">20sp</dimen>
+    <dimen name="app_otp_rt_margin">10dp</dimen>
+    <dimen name="app_opt_info">20sp</dimen>
+    <dimen name="app_actionBar_let">5dp</dimen>
+    <dimen name="app_otp_padding">20dp</dimen>
+    <dimen name="app_otp_edit">60dp</dimen>
+    <!--<dimen name="btn_mrg_top">70dp</dimen>
+    <dimen name="txt_mrg_top">270dp</dimen>
+    <dimen name="btn_height">45dp</dimen>
+-->
+
+
+    <dimen name="pin_content_layout_padding">40dp</dimen>
+    <dimen name="pin_label_margin">10dp</dimen>
+    <dimen name="pin_min_width">32dp</dimen>
+
+
+
+</resources>
